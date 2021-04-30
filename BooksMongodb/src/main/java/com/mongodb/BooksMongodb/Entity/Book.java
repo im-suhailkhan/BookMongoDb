@@ -10,6 +10,7 @@ import org.springframework.data.mongodb.core.mapping.Document;
 @Setter
 @ToString
 @Document(collection = "Books")
+//using lombok no need to generate getter setter etc just add the annotation
 public class Book {
     @Id
     private int id;
